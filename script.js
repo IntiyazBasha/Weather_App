@@ -8,8 +8,7 @@ window.addEventListener("load", (position) => {
       weather,
       timeZone,
       weatherdesc,
-      humidity,
-      pressure;
+      humidity;
     var geolocationurl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apikey}&lang=en-us`;
     axios.get(geolocationurl).then((position) => {
       country = position.data.sys.country;
