@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="heading">Weather Dashboard</h1>
+          <div class="card">
+            <div class="place box">
+              <p><strong></strong> <span id="country"></span></p>
+              <p id="place"></p>
+            </div>
+            <div class="icon box">
+              <img id="icon" src="" alt="">
+              <p id="temp"></p>
+              
+            </div>
+            <div class="date_time box">
+              <p><strong></strong> <span id="date"></span></p>
+              <p><strong></strong> <span id="day"></span></p>
+              <p><strong></strong> <span id="time"></span></p>
+            </div>
+            <div class="temp box">
+              <p id="weather"></p>
+              <p id="weatherDesc"></p>
+              <p><strong></strong> <span id="humidity"></span></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.8.4/dist/axios.min.js"></script>
+  </body>
+</html>

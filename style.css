@@ -1,0 +1,68 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  background: url("https://cache.desktopnexus.com/thumbseg/1415/1415424-bigthumbnail.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  min-height: 100vh;
+}
+
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.place{
+  height: 165px;
+  padding-top: 45px;
+  
+}
+
+p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
